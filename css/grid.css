@@ -1,10 +1,19 @@
+main{
+  background-color:ghostwhite;
+}
+header{
+  font-family: sans-serif;
+  font-size: 1em;
+  color:darkgoldenrod;
+  text-align: center;
+}
 .grid-container {
     display: grid;
     grid-template-columns: 200px 300px 300px ;
     padding: 10px;
   }
   .grid-item {
-    background-color: darksalmon;
+    background-color:lavenderblush;
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
@@ -19,7 +28,7 @@
     padding: 10px;
   }
   .grid-gap {
-    background-color: darkturquoise;
+    background-color:peru;
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
@@ -43,6 +52,38 @@
     grid-row-start: 1;
     grid-row-end: 4;
   }
+  .grid-justify-content{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 200px 200px 200px; /*Make the grid smaller than the container*/
+    grid-gap: 10px;
+    background-color: rgb(33, 243, 191);
+    padding: 10px;
+  }
+  
+  .grid-justify-content > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  .grid-align-content {
+    display: grid;
+    height: 400px;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color:indianred;
+    padding: 10px;
+  }
+  
+  .grid-align-content > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
   
 
   
