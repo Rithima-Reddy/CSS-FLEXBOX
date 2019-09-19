@@ -6,7 +6,13 @@
 - RETHIMAREDDY POLAM
 - ROHAN GOUD BHANDARI
 
-We are going to expalin about styling using Flexbox and Grid in CSS.
+We are going to explain about styling using Flexbox and Grid in CSS.
 Below are the demos links for Flexbox and Grid 
-[Flexbox demo](https://htmlpreview.github.io/?https://github.com/Rethima-Reddy/CSS-FLEXBOX/blob/master/flexbox.html)
-[Grid demo](https://htmlpreview.github.io/?https://github.com/Rethima-Reddy/CSS-FLEXBOX/blob/master/grid.html)
+1. [Flexbox demo](https://htmlpreview.github.io/?https://github.com/Rethima-Reddy/CSS-FLEXBOX/blob/master/flexbox.html)
+2. [Grid demo](https://htmlpreview.github.io/?https://github.com/Rethima-Reddy/CSS-FLEXBOX/blob/master/grid.html)
+
+
+## References
+- [w3schools.com](https://www.w3schools.com/)
+- [css-tricks](https://css-tricks.com/)
+- [Quackit](https://www.quackit.com/css/)
