@@ -1,16 +1,50 @@
+body{
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+  margin: auto;
+  padding: auto
+}
+
 main{
   background-color:ghostwhite;
 }
+
 header{
   font-family: sans-serif;
-  font-size: 1em;
-  color:darkgoldenrod;
+  background: grey;
+  color: #fff;
   text-align: center;
 }
+
+h1{
+  margin: 0;
+  padding: 20px;
+}
+
+h3 {
+  background: #8d929e;
+  color: #222;
+  padding: 5px;
+  margin: 0;
+}
+
+section {
+  padding: 25px 30px;
+}
+
+.border-2px {
+  border: 2px solid #8d929e;
+  background: #eee
+}
+
 .grid-container {
     display: grid;
-    grid-template-columns: 200px 300px 300px ;
+    height: 400px;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
     padding: 10px;
+
   }
   .grid-item {
     background-color:lavenderblush;
@@ -22,10 +56,15 @@ header{
 
   .grid-container-gap {
     display: grid;
-    grid-column-gap: 1em;
-    grid-row-gap: 1em;
-    grid-template-columns: 200px 300px 300px ;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px;
     padding: 10px;
+  }
+  
+  .grid-container-gap > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
   }
   .grid-gap {
     background-color:peru;
