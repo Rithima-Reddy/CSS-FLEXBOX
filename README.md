@@ -16,3 +16,7 @@ Below are the demos links for Flexbox and Grid
 - [w3schools.com](https://www.w3schools.com/)
 - [css-tricks](https://css-tricks.com/)
 - [Quackit](https://www.quackit.com/css/)
+
+## For Animated learning
+- [regarding flexbox](https://flexboxfroggy.com/)
+- [regarding grid](https://cssgridgarden.com/)
