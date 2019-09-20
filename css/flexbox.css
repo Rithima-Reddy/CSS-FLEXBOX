@@ -39,11 +39,11 @@ section {
 
 .flexbox-direction {
     display:flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
   }
   .flex-wrap {
     display: flex;
-    flex-wrap : wrap ;
+    flex-wrap : wrap-reverse;
   }
   img:nth-child(1){
     height:300px;
@@ -59,12 +59,12 @@ section {
   }
   .flex-justify{
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   }
   .align-items{
   display: flex;
   height: 800px;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   }
     
